@@ -1,7 +1,6 @@
 ﻿.container {
     display: grid;
     grid-template-columns: repeat(14, 1fr);
-  
     width: 1000px;
     margin: auto;
 }
@@ -10,8 +9,8 @@
     --slate-grey: #3b5463;
 }*/
 
-.empty-gap{
-    height:50px;
+.empty-gap {
+    height: 40px;
 }
 
 /*logo/header styling:*/
@@ -88,27 +87,29 @@ section.grid-item.title {
 
 
 /*location one:*/
-#header-1{
+#header-1 {
     color: #3b5463;
     font-size: 14px;
     text-align: left;
-    text-indent:0px;
+    text-indent: 0px;
 }
+
 .location-1 {
     grid-column: 1/span 7;
-    height: 300px;
+    height: 250px;
     color: #3b5463;
     margin-top: 20px;
     margin-left: 30px;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12px;
 }
+
 .location-img-1 {
     grid-column: 8/span 7;
     height: 250px;
-    margin-left:20px;
-    margin-right:50px;
-    background-size:cover;
+    margin-left: 20px;
+    margin-right: 50px;
+    background-size: cover;
     background-image: url('Images/italy-mountain-villa.jpeg');
 }
 
@@ -125,8 +126,51 @@ section.grid-item.title {
 }
 
 /*/*location two:*/
+#header-2 {
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    text-indent: 0px;
+    margin-top: 60px;
+}
+p#para-2 {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    margin-right: 20px;
+}
 
+.location-2 {
+    grid-column: 7/span 8;
+    height: 250px;
+    background: #3b5463;
+    color: white;
 
+}
+
+.location-img-2 {
+    background-color: #3b5463;
+    height: 250px;
+    grid-column: 1/span 6;
+
+}
+#img2 {
+    height: 200px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.location-button-2 {
+    background-color: white;
+    color: #3b5463;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    display: block;
+    border: none;
+}
 
 /*styling for titles command text elements:*/
 h1#title-text {
