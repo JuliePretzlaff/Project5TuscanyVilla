@@ -172,6 +172,45 @@ p#para-2 {
     border: none;
 }
 
+/*loction three:*/
+#header-3 {
+    color: #3b5463;
+    font-size: 14px;
+    text-align: left;
+    text-indent: 0px;
+}
+
+.location-3 {
+    grid-column: 1/span 7;
+    height: 250px;
+    color: #3b5463;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.location-img-3 {
+    grid-column: 8/span 7;
+    height: 250px;
+    margin-left: 20px;
+    margin-right: 50px;
+    background-size: cover;
+    background-image: url('Images/tuscany-grape-field-nature-51947.jpeg');
+}
+
+.location-button-3 {
+    background-color: #3b5463;
+    color: white;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    display: block;
+    border: none;
+}
+
 /*styling for titles command text elements:*/
 h1#title-text {
     font-size: 50px;
