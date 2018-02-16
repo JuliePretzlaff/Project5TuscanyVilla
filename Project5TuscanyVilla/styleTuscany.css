@@ -72,7 +72,6 @@ section.grid-item.title {
     margin-top: 0px;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .map-photo {
     grid-column: 11/ span 4;
     background-image: url('Images/Versilia.jpg');
@@ -80,7 +79,7 @@ section.grid-item.title {
 }
 
 /*locations bar:*/
-.locations {
+.bar {
     grid-column: 1/span 14;
     background-color: #3b5463;
 }
@@ -93,7 +92,6 @@ section.grid-item.title {
     text-align: left;
     text-indent: 0px;
 }
-
 .location-1 {
     grid-column: 1/span 7;
     height: 250px;
@@ -103,7 +101,6 @@ section.grid-item.title {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12px;
 }
-
 .location-img-1 {
     grid-column: 8/span 7;
     height: 250px;
@@ -112,7 +109,6 @@ section.grid-item.title {
     background-size: cover;
     background-image: url('Images/italy-mountain-villa.jpeg');
 }
-
 .location-button-1 {
     background-color: #3b5463;
     color: white;
@@ -139,7 +135,6 @@ p#para-2 {
     text-align: left;
     margin-right: 20px;
 }
-
 .location-2 {
     grid-column: 7/span 8;
     height: 250px;
@@ -147,7 +142,6 @@ p#para-2 {
     color: white;
 
 }
-
 .location-img-2 {
     background-color: #3b5463;
     height: 250px;
@@ -159,7 +153,6 @@ p#para-2 {
     margin-top: 25px;
     margin-left: 20px;
 }
-
 .location-button-2 {
     background-color: white;
     color: #3b5463;
@@ -179,7 +172,6 @@ p#para-2 {
     text-align: left;
     text-indent: 0px;
 }
-
 .location-3 {
     grid-column: 1/span 7;
     height: 250px;
@@ -189,7 +181,6 @@ p#para-2 {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12px;
 }
-
 .location-img-3 {
     grid-column: 8/span 7;
     height: 250px;
@@ -198,7 +189,6 @@ p#para-2 {
     background-size: cover;
     background-image: url('Images/tuscany-grape-field-nature-51947.jpeg');
 }
-
 .location-button-3 {
     background-color: #3b5463;
     color: white;
@@ -211,8 +201,87 @@ p#para-2 {
     border: none;
 }
 
-/*styling for titles command text elements:*/
-h1#title-text {
+
+/*ammentaties generic items*/
+h2.ammen-header {
+    margin-top:50px;
+    font-size: 20px;
+    color: #3b5463;
+    text-align: center;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+h3.ammen-text {
+    color: #3b5463;
+    text-align: center;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    margin-right:10px;
+    margin-left:10px;
+}
+.location-button-4 {
+    background-color: #3b5463;
+    color: white;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    margin-left:85px;
+    text-align: center;
+}
+
+/*ammentities block*/
+#ammen1 {
+    background-image: url('Images/3b-348x348.jpg');
+    background-size:cover;
+    grid-column: 2/span 4;
+    height: 250px;
+    margin-top:30px;
+}
+#ammen2{
+    grid-column: 6 / span 4;
+}
+#ammen3 {
+    background-image: url('Images/42-348x348.jpg');
+    background-size: cover;
+    grid-column: 10/span 4;
+    height: 250px;
+    margin-top: 30px;
+}
+#ammen4 {
+    grid-column: 2/span 4;
+}
+#ammen5 {
+    background-image: url('Images/314-348x348.jpg');
+    background-size: cover;
+    grid-column: 6/span 4;
+    height: 250px;
+}
+#ammen6{
+    grid-column:10/span 4;
+}
+#ammen7 {
+    background-image: url('Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+    background-size: cover;
+    grid-column: 2/span 4;
+    height: 250px;
+}
+#ammen8 {
+    grid-column: 6/span 4;
+}
+#ammen9 {
+    background-image: url('Images/Villa-Vanna-231-348x348.jpg');
+    background-size: cover;
+    grid-column: 10/span 4;
+    height: 250px;
+}
+
+
+
+
+    /*styling for titles command text elements:*/
+    h1 #title-text {
     font-size: 50px;
     text-align: center;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
@@ -235,6 +304,7 @@ h3 {
     text-align: center;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 3px;
+    letter-spacing:2px;
 }
 
 p {
