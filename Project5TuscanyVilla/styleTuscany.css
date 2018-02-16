@@ -1,3 +1,162 @@
-﻿.container{
+﻿.container {
     display: grid;
+    grid-template-columns: repeat(14, 1fr);
+  
+    width: 1000px;
+    margin: auto;
+}
+
+/*:root {
+    --slate-grey: #3b5463;
+}*/
+
+.empty-gap{
+    height:50px;
+}
+
+/*logo/header styling:*/
+.header {
+    background-color: #3b5463;
+    grid-column: 1/span 14;
+    color: white;
+}
+
+#logo {
+    margin-top: 10px;
+    margin-left: 20px;
+    text-size-adjust: 125%;
+    letter-spacing: 3px;
+    grid-column: 1;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*nav bar styling:*/
+.nav-bar {
+    margin-left: 500px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    background-color: #3b5463;
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover {
+            background-color: cornflowerblue;
+        }
+
+/*main cover title styling*/
+
+section.grid-item.title {
+    grid-column: 1/span 10;
+    background-image: url('Images/tuscany-villas-sant-anna.jpg');
+    background-size: cover;
+    height: 300px;
+    color: white;
+    margin-top: 0px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.map-photo {
+    grid-column: 11/ span 4;
+    background-image: url('Images/Versilia.jpg');
+    background-size: cover;
+}
+
+/*locations bar:*/
+.locations {
+    grid-column: 1/span 14;
+    background-color: #3b5463;
+}
+
+
+/*location one:*/
+#header-1{
+    color: #3b5463;
+    font-size: 14px;
+    text-align: left;
+    text-indent:0px;
+}
+.location-1 {
+    grid-column: 1/span 7;
+    height: 300px;
+    color: #3b5463;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+.location-img-1 {
+    grid-column: 8/span 7;
+    height: 250px;
+    margin-left:20px;
+    margin-right:50px;
+    background-size:cover;
+    background-image: url('Images/italy-mountain-villa.jpeg');
+}
+
+.location-button-1 {
+    background-color: #3b5463;
+    color: white;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    display: block;
+    border: none;
+}
+
+/*/*location two:*/
+
+
+
+/*styling for titles command text elements:*/
+h1#title-text {
+    font-size: 50px;
+    text-align: center;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 3px;
+    margin-top: 8px;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 3px;
+    margin-top: 0px;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 3px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
 }
