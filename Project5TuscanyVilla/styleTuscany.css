@@ -305,7 +305,21 @@ h3.ammen-text {
     height: 250px;
     margin-bottom: 40px;
 }
-
+.jumbo-text {
+    margin-top: 125px;
+    margin-left: 80px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+#jumbotron-1{
+    margin-top:100px;
+    margin-left:55px;
+}
+.jumbotron-2 {
+    margin-top: 75px;
+    margin-left: 75px;
+}
 /*styling for titles command text elements:*/
 h1#title-text {
     font-size: 50px;
