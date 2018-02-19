@@ -147,6 +147,10 @@ p {
     display: block;
     border: none;
 }
+.location-button-1:hover{
+    background-color: cornflowerblue;
+    color: navy;
+}
 
 /*/*location two:*/
 #header-2 {
@@ -189,6 +193,11 @@ p#para-2 {
     display: block;
     border: none;
 }
+.location-button-2:hover {
+    background-color: navy;
+    color: cornflowerblue;
+}
+
 
 /*loction three:*/
 #header-3 {
@@ -254,6 +263,10 @@ h3.ammen-text {
     border: none;
     margin-left: 85px;
     text-align: center;
+}
+.location-button-4:hover {
+    background-color: cornflowerblue;
+    color: navy;
 }
 
 /*ammentities block*/
@@ -448,6 +461,11 @@ p#end2 {
     display: block;
     border: none;
 }
+#contact-button:hover {
+    background-color: cornflowerblue;
+    color: navy;
+}
+
 #comment1 {
     width: 400px;
 }
@@ -455,4 +473,8 @@ p#end2 {
 #comment2 {
     height: 75px;
     width: 400px;
+}
+img.location-icon{
+    height:15px;
+    width: 15px;
 }
